@@ -1,15 +1,15 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ExamplePipe } from './pipes/example.pipe';
+import { LoadingComponent } from './components/loading/loading.component';
 
 
 
 @NgModule({
   declarations: [
-    ExamplePipe
+    LoadingComponent
   ],
   imports: [
     CommonModule
   ]
 })
-export class CoreModule { }
+export class SharedModule { }
