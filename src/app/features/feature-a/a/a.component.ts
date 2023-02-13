@@ -6,12 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./a.component.css']
 })
 export class AComponent implements OnInit {
-
-  constructor() { /* TODO document why this constructor is empty */  }
+  
+  constructor() {  }
 
   ngOnInit(): void {
     // TODO document why this method 'ngOnInit' is empty
-  
+    console.log('on init');
   }
 
 }
